@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.logo img{
+    max-width: 120px;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #8C8A8A;
+    margin: 7px 15px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img {
+    display: block;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    max-width: 1110px;
+    width: 100%;  
+}
+
+.wrapper {
+    background-color: #F0F0F0;
+    padding: 50px 95px 50px 40px;
+    max-width: 730px;
+    width: 100%;
+}
+
+.wrapper h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581B7;
+    padding-bottom: 25px;
+    line-height: 23px;
+}
+
+.about__desc {
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;
+}
+
+.about__contacts {
+    max-width: 350px;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 50px 24px 159px 40px;
+}
+
+.about__contacts h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #4581B7;
+    padding-bottom: 27px;
+}
+
+.adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 27px;
+    color: #808080;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    margin-bottom: 54px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+
+.footer__content {
+    background: #F0F0F0;
+    padding: 15px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 46px 0;
+}
+
+.foottext {
+    color: #808080;
+    text-align: right;
+    padding-bottom: 11px;
+}
+
+.footnumber {
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+color: #808080;
+}
